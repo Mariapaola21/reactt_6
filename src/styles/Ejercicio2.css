@@ -1,0 +1,29 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+ 
+a{
+    color: blue;
+}
+
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: transparent; /* Fondo transparente */
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold; /*Hace que la fuente del texto sea más gruesa o negrita.*/
+    transition: background-color 0.3s ease, color 0.3s ease; /*Crea una transición suave cuando el color de fondo o el color del texto cambian. La transición durará 0.3 segundos y utilizará una función de transición "ease" para una animación más natural.*/
+    margin: 10%;
+}
+
+button:hover{
+    background-color: gray;
+    color: white;
+}
